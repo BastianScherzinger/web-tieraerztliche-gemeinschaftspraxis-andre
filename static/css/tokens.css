@@ -1,6 +1,6 @@
 /* tokens.css — LOKALE taste-Stufe (design_tokens.py), 0 Claude-Tokens.
-   Lädt NACH style.css und überschreibt Palette + Fonts markengerecht. */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+   Lädt NACH style.css und überschreibt Palette + Fonts markengerecht.
+   Poppins wird über <head>-Link geladen (kein @import nötig). */
 :root{
   --accent:#a38a00;
   --accent-dark:#665600;
@@ -11,6 +11,6 @@
   --line:#e8e7e3;
 }
 body{font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
-h1,h2,h3,.brand,.section-t,.team-t,.band-t,.hr-title,.hr-result-val{font-family:"Poppins","Iowan Old Style",Georgia,serif}
+h1,h2,h3,.brand,.section-t,.team-t,.band-t,.hr-title,.hr-result-val{font-family:"Poppins",system-ui,"Segoe UI",sans-serif}
 .btn{background:var(--accent)}
 .btn:hover{background:var(--accent-dark)}

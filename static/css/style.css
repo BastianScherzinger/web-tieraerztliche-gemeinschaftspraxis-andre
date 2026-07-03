@@ -79,7 +79,7 @@ a{color:inherit;text-decoration:none}
 .hero-copy{max-width:60ch;text-align:left}
 .eyebrow{
   display:inline-block;font-size:12px;font-weight:600;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--accent);margin-bottom:14px
+  text-transform:uppercase;color:var(--accent);margin-bottom:16px
 }
 .hero h1{
   font-size:clamp(2.2rem,5vw,3.8rem);font-weight:700;
@@ -87,7 +87,7 @@ a{color:inherit;text-decoration:none}
 }
 .lead{
   font-size:clamp(1rem,1.6vw,1.2rem);color:var(--ink-soft);
-  margin:18px 0 28px;max-width:40ch;line-height:1.7
+  margin:20px 0 32px;max-width:40ch;line-height:1.7
 }
 .hero-cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 
@@ -123,15 +123,15 @@ a{color:inherit;text-decoration:none}
 
 /* Banner-Hero: Vollflächiges Hintergrundbild + dunkles Overlay für gute Lesbarkeit. */
 .hero-banner{
-  min-height:clamp(420px,60vh,620px);display:flex;align-items:center;
+  min-height:clamp(520px,80vh,780px);display:flex;align-items:center;
   background-image:var(--hero-img);background-size:cover;background-position:center;
   background-color:var(--ink);
 }
 .hero-banner::before{
   content:"";position:absolute;inset:0;z-index:0;
   background:
-    linear-gradient(180deg, rgba(20,17,15,.25) 0%, rgba(20,17,15,.80) 100%),
-    radial-gradient(120% 90% at 25% 30%, rgba(20,17,15,.08), rgba(20,17,15,.50));
+    linear-gradient(105deg, rgba(20,17,15,.88) 0%, rgba(20,17,15,.62) 40%, rgba(20,17,15,.22) 66%, rgba(20,17,15,.08) 100%),
+    linear-gradient(180deg, rgba(20,17,15,.08) 0%, rgba(20,17,15,.38) 100%);
 }
 .hero-banner .eyebrow{color:rgba(255,255,255,.92)}
 .hero-banner h1{color:#fff;text-shadow:0 2px 20px rgba(0,0,0,.30)}
@@ -152,14 +152,17 @@ a{color:inherit;text-decoration:none}
   font-size:13.5px;color:rgba(255,255,255,.88)
 }
 .hero-plain .hero-trust{color:var(--ink-soft)}
-.hero-trust li{display:flex;align-items:center;gap:6px}
+.hero-trust li{display:flex;align-items:center;gap:7px}
+.hero-trust li::before{content:"✓";font-weight:700;font-size:13px;flex-shrink:0}
+.hero-banner .hero-trust li::before{color:#FFD700}
+.hero-plain .hero-trust li::before{color:var(--accent)}
 
 /* ── Sektionen ───────────────────────────────────────────────────────────── */
 .section{padding:clamp(48px,7vw,88px) 0}
 .section-tint{background:var(--surface);border-block:1px solid var(--line)}
 .section-t{font-size:clamp(1.6rem,3vw,2.4rem);margin-bottom:6px;line-height:1.12}
 .section-lead{color:var(--ink-soft);font-size:1.05rem;max-width:56ch;margin-top:8px;line-height:1.7}
-.section-t + .section-lead{margin-top:10px}
+.section-t + .section-lead{margin-top:12px}
 .section-lead + *{margin-top:32px}
 .section-t + *:not(.section-lead){margin-top:32px}
 
@@ -209,7 +212,7 @@ a{color:inherit;text-decoration:none}
 .g-item:hover img{transform:scale(1.05)}
 
 /* ── Über uns (Foto links schmal, Text rechts breit) ─────────────────────── */
-.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,5vw,56px);align-items:start}
+.about{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(28px,5vw,56px);align-items:start}
 .about-media{display:flex;flex-direction:column;gap:10px}
 .about-photo,.ph-portrait{width:100%;aspect-ratio:4/5;border-radius:var(--radius);object-fit:cover}
 .about-cap{font-size:14px;color:var(--ink-soft);font-weight:600;text-align:center}
