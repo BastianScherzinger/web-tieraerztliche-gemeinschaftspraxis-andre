@@ -1,23 +1,70 @@
 {
-  "site_name": "Muster Handwerk",
-  "headline": "Handwerk, auf das Sie sich verlassen können",
-  "subline": "Qualität aus Ihrer Region — zuverlässig, sauber und termintreu.",
-  "akzent": "#c8102e",
-  "branche": "Handwerk",
-  "stadt": "",
+  "site_name": "Tierärztliche Gemeinschaftspraxis Andrea Brocher & Britta Nord",
+  "branche": "Tierarzt",
+  "stadt": "Homburg",
   "telefon": "",
   "email": "",
-  "adresse": "",
-  "ueber_titel": "Über uns",
-  "ueber_text": "Seit Jahren Ihr verlässlicher Partner in der Region. Wir verbinden traditionelles Handwerk mit moderner Ausführung.",
-  "leistungen": [
-    {"titel": "Beratung", "text": "Persönlich, ehrlich und auf Ihr Projekt zugeschnitten."},
-    {"titel": "Ausführung", "text": "Saubere, termintreue Arbeit mit Liebe zum Detail."},
-    {"titel": "Service", "text": "Auch nach Abschluss für Sie da — ein fester Ansprechpartner."}
+  "adresse": "Höcherbergstr. 145 66450 Bexbach (Frankenholz)",
+  "akzent": "#FFD700",
+  "fotos": [
+    "/static/img/gal_ph1.svg",
+    "/static/img/gal_ph2.svg",
+    "/static/img/gal_ph3.svg"
   ],
-  "fotos": [],
-  "cta_text": "Jetzt unverbindlich anfragen",
-  "seo_title": "Muster Handwerk",
-  "seo_desc": "Qualität aus Ihrer Region.",
-  "jahr": 2026
+  "hero_image": "/static/img/hero.png",
+  "headline": "Tierärztliche Expertise für Ihr Liebling",
+  "subline": "Sorgenfreie Tiergesundheit in Homburg.",
+  "ueber_titel": "Andrea Brocher & Britta Nord - Zuverlässige Tierärzte",
+  "ueber_text": "In unserer Gemeinschaftspraxis bieten wir individuelle tierärztliche Versorgung an. Unsere erfahrenen Tierärztinnen kümmern sich um Ihre Haustiere mit großer Sorgfalt und Kompetenz.",
+  "leistungen": [
+    {
+      "titel": "Tiergesundheitscheck",
+      "text": "Schnelle, zuverlässige Untersuchungen."
+    },
+    {
+      "titel": "Krankenbehandlung",
+      "text": "Effektive Therapien für Ihr Haustier."
+    },
+    {
+      "titel": "Impfungen",
+      "text": "Schutz vor gefährlichen Krankheiten."
+    },
+    {
+      "titel": "Notfallversorgung",
+      "text": "Sofortige Hilfe rund um die Uhr."
+    }
+  ],
+  "cta_text": "Termin vereinbaren",
+  "seo_title": "Tierärztliche Gemeinschaftspraxis Andrea Brocher & Britta Nord - Homburg",
+  "seo_desc": "Andrea Brocher & Britta Nord bieten tierärztliche Versorgung in Homburg. Zuverlässige und kompetente Tierärzte für Ihr Haustier.",
+  "jahr": 2026,
+  "rechner": {
+    "titel": "Kostenrechner",
+    "untertitel": "Unverbindliche Sofort-Schätzung",
+    "posten": [
+      {
+        "name": "Kleiner Auftrag",
+        "ab": 150,
+        "bis": 600
+      },
+      {
+        "name": "Mittleres Projekt",
+        "ab": 600,
+        "bis": 3000
+      },
+      {
+        "name": "Großes Projekt",
+        "ab": 3000,
+        "bis": 15000
+      }
+    ],
+    "hinweis": "Grobe Orientierung — Ihr genaues, kostenloses Angebot erstellen wir nach kurzer Rücksprache."
+  },
+  "site_version": "1.0",
+  "font_display": "Poppins",
+  "font_body": "Inter",
+  "taste_applied": true,
+  "hero_source": "higgsfield_mcp",
+  "about_image": "/static/img/about_ph.svg",
+  "placeholder_images": true
 }
